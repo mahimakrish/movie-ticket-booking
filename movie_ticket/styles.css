@@ -1,0 +1,86 @@
+body{
+	
+        background-image: url('movie ticket.jpeg');
+	
+}
+h1{
+	font-size:500%;
+	font-family:courier;
+	text-align:center;
+	color:white;
+	
+}
+h2{
+	
+	text-align:center;
+	color:grey;
+	
+}
+h3{
+	font-family:courier;
+	text-align:center;
+	color:black;
+	font-size:130%;
+	
+}
+p{
+
+	font-family:verdana;
+	
+	color:black;
+	
+}
+
+.topnav 
+{
+  float: center;
+  background-color:lightgray;
+  overflow:hidden;
+  padding:10px;
+  width:600px;
+}
+
+.topnav a 
+{
+  float: center;
+  color: black;
+  text-align: center;
+  padding: 30px 30px;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+
+.topnav a:hover 
+{
+  float: center;
+  background-color: grey;
+}
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+.dropdown-content
+{
+  display:none;
+  position:absolute; 
+  background-color:black;
+  min-width:30px;
+}
+.dropdown-content a {
+  float: none;
+  color: yellow;
+  padding: 15px 16px;
+  text-decoration: none;
+  display: block;
+  text-align:left;
+}
+
+.dropdown-content a:hover {
+  background-color: lightgrey;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
